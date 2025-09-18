@@ -834,6 +834,7 @@ footer {
     .cards .pp {
         height: auto;
         width: 100%;
+        margin-left: 0px;
     }
 
     .cards .pp .pp-btm {
@@ -935,10 +936,13 @@ footer {
         height: 30px;
     }
 
-    .year1 {
+    .year1,
+    .year2 {
         right: 60px;
     }
-    .year {
+
+    .year,
+    .year2 {
         left: 250px;
     }
 }
