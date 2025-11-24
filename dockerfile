@@ -1,8 +1,8 @@
-# Use Nginx as a lightweight web server
+# Use official Nginx image
 FROM nginx:alpine
 
-# Copy your website files into Nginx default directory
+# Copy your website files to nginx default folder
 COPY . /usr/share/nginx/html
 
-# Expose port 80 to the web
+# Expose port 80
 EXPOSE 80
